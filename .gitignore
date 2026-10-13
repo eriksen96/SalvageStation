@@ -1,0 +1,5 @@
+﻿# debug symbols for crash analysis - not needed to play
+*.pdb
+# logs and settings written while playing from this folder
+Saved/
+**/Saved/
