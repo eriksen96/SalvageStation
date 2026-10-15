@@ -1,4 +1,4 @@
-SALVAGE STATION  -  test build
+SALVAGE STATION  -  test build v0.3 (work in progress)
 
 HOW TO START
   1. Unzip this whole folder anywhere (keep everything together).
@@ -8,47 +8,61 @@ HOW TO START
   Needs 64-bit Windows 10/11 and a DirectX 12 graphics card.
 
 NEW? Press TRAINING on the start screen for a 2-minute walkthrough.
+WANT TO TRY EVERYTHING? Press SANDBOX on the start screen (see SANDBOX below).
 
 GOAL
   Your robot crew salvages derelict station sectors. Carry battery and fuel loot into the airlock
   (the glowing room by the start) to meet the quota, then press the LAUNCH button.
-  Valuables become credits. After each sector the shuttle docks at the TRADING POST: walk up to an
-  item on the counter or table and press E to buy it, then press the big launch console to go on.
-  Die and the run starts over.
+  Valuables become credits. Loot lies on tables, shelves, racks and crates as well as the floor.
+  After each sector the shuttle docks at the TRADING POST: walk up to an item and press E to buy it,
+  then press the big launch console to go on. If the whole crew goes down, the run starts over.
+
+TRADING POST AND THE CREW'S GEAR
+  Credits belong to the whole crew - anyone can spend them. Upgrades go on YOUR robot only.
+  Gear you buy doesn't go into your hands: it goes into the crew's stash and waits on the
+  GEAR COUNTER in the corner of the dock when the next sector starts. Pick it up there with E.
+  Whatever the crew carries home - and anything left in the dock - is there again next sector.
+  Gear dropped elsewhere in a sector is lost. Each piece of equipment is limited to one per crew member;
+  when the crew has as much as it may, the item is gone from the shop.
+  Gear: pulse pistol (+ pulse cells), rollerblades, health packs, flare pack (+ energy), noise makers,
+  revive kits, grapple (+ energy), airlock beacon (+ uplinks), stun baton, cargo sled.
+  A robot that went down and wasn't revived comes back next sector with 1 hp.
 
 MAP (bottom right)
   Rooms appear once someone in the crew has been in them. Loot shows once anyone has seen it
-  (orange = fuel, blue = batteries, gold = valuables), hazards in red, crewmates in blue,
-  the airlock in green - an arrow on the edge points to it when it's off the map.
+  (orange = fuel, blue = batteries, gold = valuables), hazards in red, crewmates in blue.
+  The airlock shows in green when it's near. A robot carrying a live AIRLOCK BEACON sees it from
+  anywhere, with an arrow and the distance (one uplink is used each sector).
 
-TRADING POST
-  Between sectors the trader's ship docks with your station; after shopping it undocks and leaves.
-  Credits belong to the whole crew - anyone can spend them.
-  Upgrades are your own: they go on YOUR robot only.
-  The pulse pistol is an item: whoever buys it holds it. To give it to someone, draw it
-  and press right mouse to drop it; they pick it up with E (the rounds stay in it).
-  A new pistol comes with 10 rounds; a box of pulse cells adds 5.
-  A robot that goes down drops its pistol. Pulse cells need a pistol in your inventory.
-
-INVENTORY (1 2 3 4)
-  Four free slots - nothing is reserved. What you buy or pick up goes into a free slot.
-  An empty slot = free hands: grab and carry loot, drag doors.
-  Select the pistol's slot to draw it (Q jumps to it and back).
-  Small loot (up to 6 kg - circuit boards, data cartridges, scrap) can be pocketed: while carrying it,
-  press a number and it goes into the slot you had selected. Select that slot again to take it out;
-  click to drop it. Big loot (cells, drums, cores) has to be carried by hand.
+HANDS AND INVENTORY (1 2 3 4)
+  Your HANDS (the box left of the slots) and four slots. Whatever you pick up goes into your hands.
+  A number key swaps your hands with that slot: it puts away what you hold, takes out what's there,
+  or trades the two. Only what's in your hands can be dropped or thrown.
+  With an item in your hands, left mouse uses it: fire, throw a flare or noise maker, fire the grapple,
+  swing the stun baton, use a health pack. Rollerblades in your hands are on your feet.
+  Revive kits: hold one, look at a fallen crewmate's wreck and press E.
+  Loot: left mouse picks it up and again puts it down. Small loot (up to 6 kg) fits in a slot;
+  anything bigger needs both hands. What you carry sways with your moves - heavy things the most.
 
 CONTROLS (rebindable in Settings, Esc)
-  WASD move, Shift sprint, Ctrl crouch (sprint + Ctrl = slide), Space jump (hold Ctrl first = high jump)
-  Left mouse  grab / carry (hold)  -  fire when the pistol is out
-  Right mouse throw  -  drop the pistol when it's out     Mouse wheel  carried item nearer / further
-  1-4 inventory slots   Q  draw / holster pistol
-  E use (launch button, buy at the trading post, pick up a pistol)   F head lamp   V look at yourself   Esc / P pause
+  WASD move, Shift sprint, Ctrl crouch (sprint + Ctrl = slide), Space jump (hold Ctrl first = high jump;
+  while on the grapple line, Space lets go)
+  Left mouse  pick up / put down, or use the item in your hands       Right mouse  throw / drop
+  Mouse wheel  carried loot nearer / further
+  1-4  swap your hands with a slot
+  E use (launch button, buy, pick up, revive)   F head lamp   V look at yourself   Esc / P pause
+
+SANDBOX
+  A sector with one of every item on the gear counter, no quota and no game over: if you go down,
+  you're rebuilt at the dock. F1 Wanderer, F2 Hunter, F3 Watcher, F4 Shade (they appear in front of you),
+  F5 every item in front of you, F6 clear all monsters, F7 full health. Leave from the pause menu.
 
 TIPS
+  It's dark. Keep your head lamp on to see - but the Shade hunts light, and the Hunter spots you sooner.
   The Hunter HEARS you: sprinting is loud, walking is quieter, crouching is silent. Gunshots are very loud.
-  The Wanderer just roams - but if it walks into you, it hits hard and knocks you away.
+  The Wanderer just roams - but if it walks into you, it pounces, hits hard and knocks you away.
   The Hunter needs a second to be sure it sees you (three if you crouch). Hide under racks and benches.
+  The Watcher only moves when nobody looks at it.
   Hazards switch on and off: wait for the warning sound to stop and cross while they're dormant.
 
 CO-OP (up to 4 players)
@@ -58,9 +72,8 @@ CO-OP (up to 4 players)
     INVITE FRIENDS to invite through the Steam overlay.
   - Same network, no Steam: just HOST / FIND GAMES / JOIN.
   The host's game runs the session; only the host can launch from the start screen.
-  Credits are shared; upgrades and pistols are per player (see TRADING POST).
   Hold T to talk (proximity voice - teammates hear you from nearby). When you die, you spectate
-  your crew (click to switch) until they finish or everyone is down.
+  your crew (click to switch) until they finish, someone revives you, or everyone is down.
   If co-op goes wrong, both players can send the file
     %LOCALAPPDATA%\MyGame\Saved\Logs\CoopLog.txt
   (paste that path into the Windows Explorer address bar) - it records joining, level changes and disconnects.
