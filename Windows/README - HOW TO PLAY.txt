@@ -43,6 +43,8 @@ HANDS AND INVENTORY (1 2 3 4)
   Revive kits: hold one, look at a fallen crewmate's wreck and press E.
   Loot: left mouse picks it up and again puts it down. Small loot (up to 6 kg) fits in a slot;
   anything bigger needs both hands. What you carry sways with your moves - heavy things the most.
+  Fridges and cabinets open and close with E - sometimes there's loot inside. Loot also lies on
+  tables, shelves and the upper decks of two-storey rooms (take the stairs).
 
 CONTROLS (rebindable in Settings, Esc)
   WASD move, Shift sprint, Ctrl crouch (sprint + Ctrl = slide), Space jump (hold Ctrl first = high jump;
@@ -61,7 +63,8 @@ TIPS
   It's dark. Keep your head lamp on to see - but the Shade hunts light, and the Hunter spots you sooner.
   The Hunter HEARS you: sprinting is loud, walking is quieter, crouching is silent. Gunshots are very loud.
   The Wanderer just roams - but if it walks into you, it pounces, hits hard and knocks you away.
-  The Hunter needs a second to be sure it sees you (three if you crouch). Hide under racks and benches.
+  The Hunter needs a second to be sure it sees you (three if you crouch). Crouch to crawl under tables,
+  workbenches and catwalks and hide - your robot squeezes down to fit.
   The Watcher only moves when nobody looks at it.
   Hazards switch on and off: wait for the warning sound to stop and cross while they're dormant.
 
